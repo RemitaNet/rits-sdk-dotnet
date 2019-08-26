@@ -1,20 +1,29 @@
 # Remita Interbank Transfer Service (RITs) .NET SDK
-.NET SDK for Remita Interbank Transfer Service simple APIs
+This is the .NET SDK for the Remita Interbank Transfer Service simple API
 
 ## Package 
-To install the `rits-sdk-dotnet` from package, run the following command in the 'NuGet Package Manager Console'.
+To install the `remita-rits-sdk-dotnet` from package, run the following command in the 'NuGet Package Manager Console'.
 
 ```
-PM> Install-Package RemitaRITsGateway
+PM> Install-Package RITs
 ```
 ## Requirements
-*  .NET 2.0 or later
+*  .NET 4.0 or later
+*  Visual Studio 2012 or later
 
 ## Prerequisites
 The workflow to getting started on RITs is as follows:
 
 *  Register a profile on Remita: You can visit [Remita](https://login.remita.net) to sign-up if you are not already registered as a merchant/biller on the platform.
 *  Receive the Remita credentials that certify you as a Biller: SystemSpecs will send you your merchant ID and an API Key necessary to secure your handshake to the Remita platform.
+
+## Installing the SDK 
+
+*  Download the `remita-rits-sdk-dotnet-master.zip` package into a directory of your choice.
+*  Extract and go to the remita-rits-sdk-dotnet directory.
+*  Open Solution RemitaRITsGateway from in Visual Studio.
+*  Build/Rebuild the Solution.
+
 
 ## Configuration
 All merchant credentials needed to use RITs are being setup by instantiating the Credential Class and set the properties 
@@ -24,12 +33,6 @@ _Note:_ Environment can either be TEST or LIVE, each of this environment has it 
 right credentials. By default Environment is TEST
 
 ![](images/credentialPage.png)
-
-## Dependencies
-The following dependencies should be added to the project
-
-*  RestSharp 106.6.10
-*  Nancy 2.0.0
 
 ## Methods
 #### Adding Account(s) To Your Profile
@@ -123,29 +126,6 @@ Payment Request Status finds all available information on a specific account, re
 This method lists the banks that are active on the RITs platform. required fields(Payloads) are as follow;
 	1. requestId: This uniquely identifies the request
 ![](images/bankEnquiryPage.png)
-
-## Exceptions
-
-```
-Unhandled Exception: System.NullReferenceException: Object reference not set to an instance of an object.
-```
-
-This might occur when trying to access an empty field from remitaRITs. You can use the status' response or 
-(responseCode or responseDescription) in data to ensure you have a valid response from remitaRITs. However,
-it is advisable you catch this exception.
-
-```
-Unhandled Exception: System.IO.FileNotFoundException: Could not load file or assembly 'RestSharp...
-```
-
-This might occur when 'RestSharp' is not referenced in your project. Simply add RestSharp reference.
-
-```
-Unhandled Exception: System.IO.FileNotFoundException: Could not load file or assembly 'Nancy, Version=2.0.0.0...
-```
-
-This might occur when 'Nancy' is not referenced in your project. Simply add Nancy reference.
-
 ---
     
 ## Support
