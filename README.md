@@ -14,7 +14,7 @@ PM> Install-Package RemitaRITsGateway
 The workflow to getting started on RITs is as follows:
 
 *  Register a profile on Remita: You can visit [Remita](https://login.remita.net) to sign-up if you are not already registered as a merchant/biller on the platform.
-*  Receive the Remita credentials that certify you as a Biller: SystemSpecs will send you your merchant ID and an API Key necessary to secure your handshake to the Remita platform.
+*  Receive the Remita credentials that certify you as a Biller: Remita will send you your merchant ID and an API Key necessary to secure your handshake to the Remita platform.
 
 ## Configuration
 All merchant credentials needed to use RITs are being setup by instantiating the Credential Class and set the properties 
@@ -24,12 +24,6 @@ _Note:_ Environment can either be TEST or LIVE, each of this environment has it 
 right credentials. By default Environment is TEST
 
 ![](images/credentialPage.png)
-
-## Dependencies
-The following dependencies should be added to the project
-
-*  RestSharp 106.6.10
-*  Nancy 2.0.0
 
 ## Methods
 #### Adding Account(s) To Your Profile

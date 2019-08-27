@@ -7,3 +7,12 @@ C:\Users\OLASUNKANMI\RiderProjects\RemitaRITsGateway\RemitaRITsGateway\obj\Debug
 C:\Users\OLASUNKANMI\RiderProjects\RemitaRITsGateway\RemitaRITsGateway\obj\Debug\netcoreapp2.0\RemitaRITsGateway.AssemblyInfo.cs
 C:\Users\OLASUNKANMI\RiderProjects\RemitaRITsGateway\RemitaRITsGateway\obj\Debug\netcoreapp2.0\RemitaRITsGateway.dll
 C:\Users\OLASUNKANMI\RiderProjects\RemitaRITsGateway\RemitaRITsGateway\obj\Debug\netcoreapp2.0\RemitaRITsGateway.pdb
+C:\Users\OLASUNKANMI\Desktop\RemitaSDKs\rits-sdk-dotnet\RemitaRITsGateway\bin\Debug\netcoreapp2.0\RemitaRITsGateway.deps.json
+C:\Users\OLASUNKANMI\Desktop\RemitaSDKs\rits-sdk-dotnet\RemitaRITsGateway\bin\Debug\netcoreapp2.0\RemitaRITsGateway.dll
+C:\Users\OLASUNKANMI\Desktop\RemitaSDKs\rits-sdk-dotnet\RemitaRITsGateway\bin\Debug\netcoreapp2.0\RemitaRITsGateway.pdb
+C:\Users\OLASUNKANMI\Desktop\RemitaSDKs\rits-sdk-dotnet\RemitaRITsGateway\obj\Debug\netcoreapp2.0\RemitaRITsGateway.csprojAssemblyReference.cache
+C:\Users\OLASUNKANMI\Desktop\RemitaSDKs\rits-sdk-dotnet\RemitaRITsGateway\obj\Debug\netcoreapp2.0\RemitaRITsGateway.csproj.CoreCompileInputs.cache
+C:\Users\OLASUNKANMI\Desktop\RemitaSDKs\rits-sdk-dotnet\RemitaRITsGateway\obj\Debug\netcoreapp2.0\RemitaRITsGateway.AssemblyInfoInputs.cache
+C:\Users\OLASUNKANMI\Desktop\RemitaSDKs\rits-sdk-dotnet\RemitaRITsGateway\obj\Debug\netcoreapp2.0\RemitaRITsGateway.AssemblyInfo.cs
+C:\Users\OLASUNKANMI\Desktop\RemitaSDKs\rits-sdk-dotnet\RemitaRITsGateway\obj\Debug\netcoreapp2.0\RemitaRITsGateway.dll
+C:\Users\OLASUNKANMI\Desktop\RemitaSDKs\rits-sdk-dotnet\RemitaRITsGateway\obj\Debug\netcoreapp2.0\RemitaRITsGateway.pdb

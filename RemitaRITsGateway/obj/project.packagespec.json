@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\OLASUNKANMI\\RiderProjects\\RemitaRITsGateway\\RemitaRITsGateway\\RemitaRITsGateway.csproj",
+    "projectUniqueName": "C:\\Users\\OLASUNKANMI\\Desktop\\RemitaSDKs\\rits-sdk-dotnet\\RemitaRITsGateway\\RemitaRITsGateway.csproj",
     "projectName": "RemitaRITsGateway",
-    "projectPath": "C:\\Users\\OLASUNKANMI\\RiderProjects\\RemitaRITsGateway\\RemitaRITsGateway\\RemitaRITsGateway.csproj",
-    "outputPath": "C:\\Users\\OLASUNKANMI\\RiderProjects\\RemitaRITsGateway\\RemitaRITsGateway\\obj\\",
+    "projectPath": "C:\\Users\\OLASUNKANMI\\Desktop\\RemitaSDKs\\rits-sdk-dotnet\\RemitaRITsGateway\\RemitaRITsGateway.csproj",
+    "outputPath": "C:\\Users\\OLASUNKANMI\\Desktop\\RemitaSDKs\\rits-sdk-dotnet\\RemitaRITsGateway\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

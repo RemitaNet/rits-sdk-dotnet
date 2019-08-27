@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OLASUNKANMI\\RiderProjects\\RemitaRITsGateway\\RemitaRITsGateway\\RemitaRITsGateway.csproj": {}
+    "C:\\Users\\OLASUNKANMI\\Desktop\\RemitaSDKs\\rits-sdk-dotnet\\RemitaRITsGateway\\RemitaRITsGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OLASUNKANMI\\RiderProjects\\RemitaRITsGateway\\RemitaRITsGateway\\RemitaRITsGateway.csproj": {
+    "C:\\Users\\OLASUNKANMI\\Desktop\\RemitaSDKs\\rits-sdk-dotnet\\RemitaRITsGateway\\RemitaRITsGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OLASUNKANMI\\RiderProjects\\RemitaRITsGateway\\RemitaRITsGateway\\RemitaRITsGateway.csproj",
+        "projectUniqueName": "C:\\Users\\OLASUNKANMI\\Desktop\\RemitaSDKs\\rits-sdk-dotnet\\RemitaRITsGateway\\RemitaRITsGateway.csproj",
         "projectName": "RemitaRITsGateway",
-        "projectPath": "C:\\Users\\OLASUNKANMI\\RiderProjects\\RemitaRITsGateway\\RemitaRITsGateway\\RemitaRITsGateway.csproj",
+        "projectPath": "C:\\Users\\OLASUNKANMI\\Desktop\\RemitaSDKs\\rits-sdk-dotnet\\RemitaRITsGateway\\RemitaRITsGateway.csproj",
         "packagesPath": "C:\\Users\\OLASUNKANMI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OLASUNKANMI\\RiderProjects\\RemitaRITsGateway\\RemitaRITsGateway\\obj\\",
+        "outputPath": "C:\\Users\\OLASUNKANMI\\Desktop\\RemitaSDKs\\rits-sdk-dotnet\\RemitaRITsGateway\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
