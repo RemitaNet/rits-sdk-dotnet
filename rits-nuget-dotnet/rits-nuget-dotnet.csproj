@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\NuGet.Packer.1.2.10\build\NuGet.Packer.props" Condition="Exists('..\packages\NuGet.Packer.1.2.10\build\NuGet.Packer.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{969610A3-A5D2-4789-8FAE-2F35713DCA12}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>rits_nuget_dotnet</RootNamespace>
+    <AssemblyName>rits-nuget-dotnet</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net20\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Com\Systemspecs\Paymentinfra\EncryptionUtil.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RemitaRITs.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsAccountEnquiry\AccountEnquiry.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsAccountEnquiry\AccountEnquiryDto.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsAccountEnquiry\AccountEnquiryPayload.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsAccountEnquiry\AccountEnquiryResponseData.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsAddAccount\AddAccount.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsAddAccount\AddAccountDto.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsAddAccount\AddAccountPayload.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsAddAccount\AddAccountResponseData.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsBulkPaymentStatus\BulkPaymentStatus.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsBulkPaymentStatus\BulkPaymentStatusDto.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsBulkPaymentStatus\BulkPaymentStatusInfo.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsBulkPaymentStatus\BulkPaymentStatusPayload.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsBulkPaymentStatus\BulkPaymentStatusResponseData.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsBulkPaymentStatus\PaymentDetail.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsBulkPayment\BulkPayment.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsBulkPayment\BulkPaymentDto.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsBulkPayment\BulkPaymentInfo.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsBulkPayment\BulkPaymentPayload.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsBulkPayment\BulkPaymentResponseData.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsBulkPayment\EncryptBulkPaymentInfo.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsBulkPayment\EncryptPaymentDetails.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsBulkPayment\PaymentDetails.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsConfig\Config.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsConfig\EnvironmentConfig.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsConfig\Header.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsConfig\WebClientUtil.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsGetBankList\Bank.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsGetBankList\BankDataDto.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsGetBankList\BankListResponseData.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsGetBankList\GetActiveBank.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsGetBankList\GetActiveBankPayload.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsInit\Credentials.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsSinglePaymentStatus\SinglePaymentStatus.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsSinglePaymentStatus\SinglePaymentStatusDto.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsSinglePaymentStatus\SinglePaymentStatusPayload.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsSinglePaymentStatus\SinglePaymentStatusReponseData.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsSinglePayment\SinglePayment.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsSinglePayment\SinglePaymentDto.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsSinglePayment\SinglePaymentPayload.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsSinglePayment\SingleResponseData.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsValidateAccountOtp\ValidateAccountOtp.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsValidateAccountOtp\ValidateAccountOtpDto.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsValidateAccountOtp\ValidateAccountOtpPayload.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\RitsValidateAccountOtp\ValidateAccountOtpResponseData.cs" />
+    <Compile Include="Com\Systemspecs\Paymentinfra\SdkResponseCode.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Com\Systemspecs\Paymentinfra\README.md" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\NuGet.Packer.1.2.10\build\NuGet.Packer.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NuGet.Packer.1.2.10\build\NuGet.Packer.props'))" />
+    <Error Condition="!Exists('..\packages\NuGet.Packer.1.2.10\build\NuGet.Packer.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\NuGet.Packer.1.2.10\build\NuGet.Packer.targets'))" />
+  </Target>
+  <Import Project="..\packages\NuGet.Packer.1.2.10\build\NuGet.Packer.targets" Condition="Exists('..\packages\NuGet.Packer.1.2.10\build\NuGet.Packer.targets')" />
+</Project>

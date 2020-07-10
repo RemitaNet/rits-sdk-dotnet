@@ -1,0 +1,9 @@
+C:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\bin\Release\rits-nuget-dotnet.dll
+C:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\bin\Release\rits-nuget-dotnet.pdb
+C:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\bin\Release\Newtonsoft.Json.dll
+C:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\bin\Release\Newtonsoft.Json.xml
+C:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\obj\Release\rits-nuget-dotnet.csprojAssemblyReference.cache
+C:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\obj\Release\rits-nuget-dotnet.csproj.CoreCompileInputs.cache
+C:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\obj\Release\rits-nuget-dotnet.csproj.CopyComplete
+C:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\obj\Release\rits-nuget-dotnet.dll
+C:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\obj\Release\rits-nuget-dotnet.pdb
