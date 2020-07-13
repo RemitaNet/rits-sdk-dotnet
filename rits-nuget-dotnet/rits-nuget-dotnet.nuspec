@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+    <id>RITSGateway</id>
+    <version>1.0.3</version>
+    <title>RITSGateway</title>
+    <authors>SystemSpecs</authors>
+    <owners>SystemSpecs</owners>
+    <iconUrl>https://en.gravatar.com/userimage/172056629/6c0962d37f6f263cc7c673010be56540.png</iconUrl>
+	<licenseUrl>https://github.com/JamesNK/Newtonsoft.Json/blob/master/LICENSE.md</licenseUrl>	
+    <repository type="git" url="https://github.com/RemitaNet/rits-sdk-dotnet"/>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      .NET SDK for RITS simple API's.
+    </description>
+    <copyright>Copyright ©2020</copyright>
+    <dependencies>
+      <dependency id="Newtonsoft.Json" version="12.0.2" />
+    </dependencies>
+  </metadata>
+</package>
