@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+  <metadata>
+	<id>RemitaRITsGateway</id>
+	<version>1.0.2007210751</version>
+    <title>RemitaRITsGateway</title>
+	<authors>Systemspecs</authors>
+	<owners>Systemspecs</owners>
+	<requireLicenseAcceptance>false</requireLicenseAcceptance>
+	<description>.NET SDK for the Remita Interbank Transfer Service</description>
+	<copyright>Copyright ©2020</copyright>
+	<dependencies>
+      <dependency id="Newtonsoft.Json" version="12.0.3" />
+    </dependencies>
+    <iconUrl>https://en.gravatar.com/userimage/172056629/6c0962d37f6f263cc7c673010be56540.png</iconUrl>
+	<licenseUrl>https://github.com/JamesNK/Newtonsoft.Json/blob/master/LICENSE.md</licenseUrl>	
+    <repository type="git" url="https://github.com/RemitaNet/rits-sdk-dotnet"/>
+  </metadata>
+</package>

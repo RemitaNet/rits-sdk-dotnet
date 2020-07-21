@@ -1,0 +1,9 @@
+D:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\bin\Release\RemitaRITsGateway.dll
+D:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\bin\Release\RemitaRITsGateway.pdb
+D:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\bin\Release\Newtonsoft.Json.dll
+D:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\bin\Release\Newtonsoft.Json.xml
+D:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\obj\Release\RemitaRITsGateway.csprojAssemblyReference.cache
+D:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\obj\Release\RemitaRITsGateway.csproj.CoreCompileInputs.cache
+D:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\obj\Release\RemitaRITsGateway.csproj.CopyComplete
+D:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\obj\Release\RemitaRITsGateway.dll
+D:\Projects\rits-nuget-dotnet\rits-nuget-dotnet\obj\Release\RemitaRITsGateway.pdb

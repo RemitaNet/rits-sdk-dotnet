@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.757
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rits-nuget-dotnet", "rits-nuget-dotnet\rits-nuget-dotnet.csproj", "{969610A3-A5D2-4789-8FAE-2F35713DCA12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemitaRITsGateway", "rits-nuget-dotnet\RemitaRITsGateway.csproj", "{969610A3-A5D2-4789-8FAE-2F35713DCA12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

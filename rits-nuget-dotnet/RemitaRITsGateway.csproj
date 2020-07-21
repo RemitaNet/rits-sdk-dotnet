@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>rits_nuget_dotnet</RootNamespace>
-    <AssemblyName>rits-nuget-dotnet</AssemblyName>
+    <AssemblyName>RemitaRITsGateway</AssemblyName>
     <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -92,8 +92,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Com\Systemspecs\Paymentinfra\README.md" />
-    <None Include="packages.config" />
+    <Reference Include="Com\Systemspecs\Paymentinfra\README.md" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

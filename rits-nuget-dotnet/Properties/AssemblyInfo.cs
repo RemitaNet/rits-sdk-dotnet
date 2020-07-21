@@ -5,13 +5,14 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("rits-nuget-dotnet")]
-[assembly: AssemblyDescription(".NET SDK for the Remita Interbank Transfer Service simple APIs")]
+[assembly: AssemblyTitle("RemitaRITsGateway")]
+[assembly: AssemblyDescription(".NET SDK for the Remita Interbank Transfer Service")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("rits-nuget-dotnet")]
-[assembly: AssemblyCopyright("Copyright ©  2020")]
+[assembly: AssemblyCompany("Systemspecs")]
+[assembly: AssemblyProduct("RemitaRITsGateway")]
+[assembly: AssemblyCopyright("Copyright ©2020")]
 [assembly: AssemblyTrademark("")]
+//[assembly: AssemblyIcon("https://en.gravatar.com/userimage/172056629/6c0962d37f6f263cc7c673010be56540.png")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
