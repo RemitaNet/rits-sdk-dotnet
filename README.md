@@ -10,6 +10,7 @@ The workflow to getting started on RITs is as follows:
 *  Microsoft Visual Studio 
 * .NET 2.0 or later
 
+
 ## Demo Console C# App
 Clone/Download the Demo C# console application that showcases the available methods in Remita Interbank Transfer service here: [Clone Demo App and Install SDK (Nuget)](https://github.com/RemitaNet/rits-sdk-dotnet-demo)
 
@@ -22,6 +23,7 @@ _Note:_ Environment can either be TEST or LIVE, each of this environment has it 
 right credentials. By default Environment is TEST
 
 ![](images/credentialPage.png)
+
 
 ## Methods
 #### Adding Account(s) To Your Profile
